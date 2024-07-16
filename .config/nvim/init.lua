@@ -1,0 +1,9 @@
+require("base")
+require("autocmds")
+require("options")
+require("keymaps")
+require("colorscheme")
+require("plugins")
+
+-- Lazy.nvimの初期化
+require("config.lazy")
